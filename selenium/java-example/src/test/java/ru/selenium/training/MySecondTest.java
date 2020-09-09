@@ -37,13 +37,13 @@ public class MySecondTest {
         driver.get("https://shop.rammstein.de/en");
         wait.until(titleIs("official Rammstein Merchandise Store")); // titleIs ("Downtown.ru, Воронеж") падает с ошибкой кодировки,
         // как добавить фигову верную кодировку???
-        System.out.println("opened page 1" + driver.getTitle());
+        System.out.println("opened page 1:" +""+ driver.getTitle());
         driver.get("https://shop.rammstein.de/en/catalog/menu.html");
         wait.until(titleIs("Menu | Rammstein-Shop"));
-        System.out.println("opened page 2" + driver.getTitle());
+        System.out.println("opened page 2:" + ""+ driver.getTitle());
         driver.get("https://shop.rammstein.de/en/catalog/menu/rammstein-vodka-feuer-and-wasser-2020-6-pack.html");
-        wait.until(titleContains("Rammstein Vodka ”Feuer& Wasser”"));
-        System.out.println("opened page 3" + driver.getTitle());
+        wait.until(titleContains("Rammstein Vodka"));
+        System.out.println("opened page 3:" + "" + driver.getTitle());
         //driver.findElement(By.name("q")).sendKeys("webdriver");
         //driver.findElement(By.name("btnK")).click();
         //System.out.println(driver.getTitle());
