@@ -50,6 +50,7 @@ public class MySecondTest {
         //String text = "webdriver - Поиск в Google";
         //wait.until(titleIs(text));
         //test commit
+        //test second commit
     }
 
     @After
