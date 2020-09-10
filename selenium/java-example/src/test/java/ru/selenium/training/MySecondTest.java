@@ -49,6 +49,7 @@ public class MySecondTest {
         //System.out.println(driver.getTitle());
         //String text = "webdriver - Поиск в Google";
         //wait.until(titleIs(text));
+        //test commit
     }
 
     @After
