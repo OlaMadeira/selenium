@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.selenium.training.LitecartLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-15T20:40:16" hostname="vrnnb-prc297" time="9.889">
+  <properties/>
+  <testcase name="LitecartLogin" classname="ru.selenium.training.LitecartLogin" time="9.889"/>
+  <system-out><![CDATA[opened page 1:My Store
+opened page 1:Dashboard | My Store
+logged-out successfully
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 19824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1600202419.825][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 15, 2020 11:40:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
